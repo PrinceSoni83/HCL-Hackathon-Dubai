@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HCL Hackathon Test Suite">
+    <listeners>
+        <listener class-name= "testcases.Listeners"/>
+    </listeners>
+    <test name="HCL Hackathon" parallel = "methods">
+        <classes>
+            <class name="testcases.HomePageTest">
+            </class>
+        </classes>
+    </test>
+<!--    <test name="SampleTest2">-->
+<!--        <classes>-->
+<!--            <class name="testcases.LoginPageTest">-->
+<!--           -->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>
