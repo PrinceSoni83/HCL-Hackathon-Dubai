@@ -36,13 +36,13 @@ public class HomePage  {
         return testimonialLink;
     }
 
-    @FindBy (id = "text_block-54-45916")
+    @FindBy (xpath = "(//*[@class='ct-text-block testimonial-slide-text']) [1]")
     WebElement firstTestimonial;
     public WebElement getFirstTestimonialText() {
         return firstTestimonial;
     }
 
-    @FindBy (className = "oxy-header-center")
+    @FindBy (xpath = "(//*[@class='ct-code-block hs-top-navigation']) [1]")
     WebElement homePageHeaders;
     public WebElement getHomePageHeaders() {
         return homePageHeaders;
