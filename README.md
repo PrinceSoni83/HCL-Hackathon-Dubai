@@ -19,4 +19,4 @@ Some basic Documentation on how to install selenium 4
 ` mvn clean test `
 
 ## Report
-An HTML Report [Extent Report) will be generated at the end of test execution with failed screenshot (if any) attached with the scenario. 
+An HTML Report (Extent Report) will be generated at the end of test execution with failed screenshot (if any) attached with the scenario. 
